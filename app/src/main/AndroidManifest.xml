@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.yuntao.testintentfilter"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActionActivity">
+            <intent-filter>
+                <action android:name="com.yuntao.action1"/>
+                <action android:name="com.yuntao.action2"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".CategoryActivity">
+            <intent-filter>
+                <action android:name="com.yuntao.action2"/>
+                <action android:name="com.yuntao.action.c"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.yuntao.category1"/>
+                <category android:name="com.yuntao.category2"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".DataActivity">
+            <intent-filter>
+                <action android:name="com.yuntao.action.data"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data
+                    android:mimeType="video/mp4"
+                    android:host="com.yuntao"
+                    android:path="/add"
+                    android:port="90"
+                    android:scheme="content"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

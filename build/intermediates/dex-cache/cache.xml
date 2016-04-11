@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/pengyuntao/IdeaProjects2/TestIntentFilter/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3faf104b03995aa26b071494d3bc74563adfc696">
+        <dex dex="/Users/pengyuntao/IdeaProjects2/TestIntentFilter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3040fbf0a944c369a89bcc7bdc58abc28dc6f337/classes.dex" />
+    </item>
+
+</items>
